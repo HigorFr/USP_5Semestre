@@ -45,3 +45,4 @@
 #Esse é o conceito mais fundamental do BD
     #Tudo que está em um sistema será no máximo informação provavelmente.
     
+#Customizável, informação filtrada com paineis especificos para cada usuário

@@ -40,3 +40,11 @@
 
 #Cada modelo tem suas vantagens e desvantagens, e cada um tem um nicho de mercado, não tem um melhor que o outro, depende do uso.
 
+#Customizável, informação filtrada com paineis especificos para cada usuário
+
+
+#Propriedades dos chamados "Transações"
+    #Atomicidadoe (Armazena tudo ou nada)
+    #Consistencia, (Impossivel de violar)
+    #Isolamento, (Concorrência não atrapalha)
+    #Durabilidade (Continuar existindo)
