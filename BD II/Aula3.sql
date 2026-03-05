@@ -38,4 +38,6 @@
 
 
 #Terá trabalho provas e exercicios
+    #Trabalho: Qualquer SGBD relacional e pode qualquer outro complementar
+    #AVA: Ambiente virtual de aprendizagem. Local de trabalho será só na prox aula
     #Exercicios na aula
