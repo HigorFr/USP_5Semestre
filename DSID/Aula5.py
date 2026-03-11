@@ -106,5 +106,10 @@
         #Quando o líder cai, algum nó irá identificar que caiu, os nós que por padrão são seguidores podem se tornar candidato então.
         #Ai se pede votos enviando mensagems a todos os nós se candidatando, onde precisa de maioria.
         #Se o líder do periodo N voltar a vida, ele pode cancelar a eleição do periodo N+1
+
+    #Blockchain
+        #POW e POS
+        #Pode ser considerado eleição de líder.
         
-        
+
+
