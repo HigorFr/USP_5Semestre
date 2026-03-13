@@ -117,6 +117,6 @@
                 #A requsição depois de enviada volta, se tiver pending, ela continua para o anterior. 
 
                 #aplicação nichada, dificilmente seria aplicável na internet.
-                
+
 
         #Faltou 
