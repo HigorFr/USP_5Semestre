@@ -101,6 +101,13 @@
             #3 Fases, ou seja é mais complexo
 
 
+        #Teorema CAP
+            #Tolerancia a parcionamento
+            #Avalability
+            #Consistencia
+
+            #Das 3 apenas duas propriedades são aintgíveis
+
 
 
 
