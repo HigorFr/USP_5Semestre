@@ -63,7 +63,7 @@
 
 #Exclusão Mútua
     #Recurso compartilhado que apenas um processo pode acessar o recurso por vez.
-    
+        
 
     #Centralizada
         #Possui um nó como cordenador. Os processos mandam requisições para usar o recurso e o cordenador coloca eles em uma fila garantindo o acesso individual em ordem.
@@ -90,16 +90,15 @@
 
 #Eleição de Líder
     #Mecanismo para escolher um processo para ser o líder, ou seja, o responsável por coordenar certas atividades. Esse algoritimo é para evitar que um seja "Hard Coded". 
+    
     #Útil para funções diferenciadas
 
     #Eleição por Bullying
         #O mais forte é o lider, através de um identificador único númerico.
         #Quando um processo identifica que o líder morreu, ele manda pedido para os indentificadores mais maiores. Esses processos negam e tentam eles mesmos serem os líderes recursivamente. Até algum grande suficiente não ser negado pelos seus maiores (Porque cairam).
         
-
     #Eleição por Anel
         #Organiza os nós em um círculo, quando o líder cai, o que aponta para ele irá identificar e iniciará uma eleição começando pelo qual o líder apontava. Cada nó irá por seu nome numa lista e quando todos colocarem, e ter dado uma volta completa, é escolhido alguem da lista para ser o líder (Através de qualquer heurística, como o pŕoprio bullying)
-
 
     #Votação
         #Cada nó está em um dos 3 estados, seguidor, candidato ou líder
